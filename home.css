@@ -1,0 +1,109 @@
+body{
+    
+     font-family: "Nunito", sans-serif;
+   
+   font-size: 48px;
+}
+.bluebg{
+    padding: 75px;
+     background-color: #0079bf;
+}
+.whitebg{
+    padding: 75px;
+    background-color: white;
+}
+.blurb h2 {
+   color: #172B4D;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #172B4D;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+form {
+    display: inline-block;
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.quick-signup .quick-signup-email {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 5;
+    -webkit-flex-grow: 5;
+    -ms-flex-positive: 5;
+    flex-grow: 5;
+    min-width: 0;
+  
+    border-radius: .3rem;
+    line-height: 43px;
+    padding: 4px;
+    padding-left: 16px;
+    border-color: white;
+    border-style: solid;
+}
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.5625rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn.btn-wrap {
+    white-space: normal;
+}
+.quick-signup button[type="submit"] {
+    border-radius: .3rem;
+    margin-left: 8px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    
+}
+
+
+#mainNavbar .nav-link:hover {
+    color: #172B4D;
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+#headingGroup span {
+    color: #172B4D;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(0,121,191);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
